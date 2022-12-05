@@ -15,6 +15,11 @@ To read more, use the docs command to view Fly's help on the web.
 shortHelp = "The Fly CLI"
 usage = "flyctl"
 
+[remote]
+longHelp = "Proxy Docker Engine of Remote Builder"
+shortHelp = "Proxy Docker Engine of Remote Builder"
+usage = "remote"
+
 [image]
 longHelp = "Manage app image"
 shortHelp = "Manage app image"

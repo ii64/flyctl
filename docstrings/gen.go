@@ -619,6 +619,10 @@ about the Fly platform.`,
 			`List all the releases of the application onto the Fly platform,
 including type, when, success/fail and which user triggered the release.`,
 		}
+	case "remote":
+		return KeyStrings{"remote", "Proxy Docker Engine of Remote Builder",
+			`Proxy Docker Engine of Remote Builder`,
+		}
 	case "restart":
 		return KeyStrings{"restart [APPNAME]", "Restart an application",
 			`The RESTART command will restart all running vms.`,
