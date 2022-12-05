@@ -51,6 +51,8 @@ or "flyctl auth login" to log in to an existing account.`
 
 flyctl does a lot of stuff! Don't panic, it's easy to get started:
 
+  * fly remote:   create unix socket proxy to Docker Engine Remote Builder
+
   * fly launch:   launch a new application ("fly help launch" for more)
 
   * fly apps:     create and manage apps ("fly help apps")
