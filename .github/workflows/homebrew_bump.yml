@@ -13,6 +13,7 @@ jobs:
   homebrew:
     name: Bump Homebrew formula
     runs-on: macos-latest
+    if: ${{ false }}
     steps:
       - uses: dawidd6/action-homebrew-bump-formula@v3
         with:
