@@ -12,9 +12,9 @@ builds:
       - linux
     ignore:
       - goos: darwin
-        goarch: 386
+        goarch: "386"
       - goos: linux
-        goarch: 386
+        goarch: "386"
     ldflags:
       - -X github.com/superfly/flyctl/internal/buildinfo.environment=production
       - -X github.com/superfly/flyctl/internal/buildinfo.buildDate={{ .Date }}
@@ -27,7 +27,7 @@ builds:
       - windows
     ignore:
       - goos: windows
-        goarch: 386
+        goarch: "386"
     ldflags:
       - -X github.com/superfly/flyctl/internal/buildinfo.environment=production
       - -X github.com/superfly/flyctl/internal/buildinfo.buildDate={{ .Date }}
@@ -64,8 +64,8 @@ dockers:
   - goos: linux
     goarch: amd64
     image_templates:
-      - "flyio/flyctl:latest"
-      - "flyio/flyctl:v{{ .Version }}"
+      - "ii64/flyctl:latest"
+      - "ii64/flyctl:v{{ .Version }}"
     skip_push: auto
 
 checksum:
