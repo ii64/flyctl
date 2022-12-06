@@ -66,7 +66,7 @@ dockers:
     image_templates:
       - "ii64/flyctl:latest"
       - "ii64/flyctl:v{{ .Version }}"
-    skip_push: auto
+    skip_push: false
 
 checksum:
   name_template: "checksums.txt"
